@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import dynamicnav from '../dynamicNav/dynamicNav';
 
 const Navpart = () => {
   return (
@@ -15,13 +16,9 @@ const Navpart = () => {
           <Nav className="m-auto">
             
             <ul className='d-flex'>
-              <li>News</li>
-              <li>Opinion</li>
-              <li>Sports</li>
-              <li>Business</li>
-              <li>Entertainment</li>
-              <li>Life & Living</li>
-              <li>Youth</li>
+                {dynamicnav.map((item)=>(
+              <li key={item.id}>{item.title}</li>
+                ))}
             </ul>
           </Nav>
         </Navbar.Collapse>
