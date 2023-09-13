@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import dynamicnav from '../dynamicNav/dynamicNav';
+import dynamicnav from '../dynamicNav/dynamicNav.json';
 
 const Navpart = () => {
   return (
@@ -17,7 +17,9 @@ const Navpart = () => {
             
             <ul className='d-flex'>
                 {dynamicnav.map((item)=>(
-              <li key={item.id}>{item.title}</li>
+              <li key={item.id}>
+                <a href={item.link}>{item.title}</a>
+              </li>
                 ))}
             </ul>
           </Nav>

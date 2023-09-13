@@ -1,11 +1,13 @@
-const dynamicnav = [
+[
     {
         "id": 1,
-        "title": "News"
+        "title": "News",
+        "link": "/news"
     },
     {
         "id": 2,
-        "title": "Opinion"
+        "title": "Opinion",
+        "link": "/opinion"
     },
     {
         "id": 3,
@@ -26,8 +28,6 @@ const dynamicnav = [
     {
         "id": 7,
         "title": "Youth"
-    },
+    }
     
 ]
-
-export default dynamicnav;
