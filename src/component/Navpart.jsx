@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navpart = () => {
   return (
@@ -15,18 +14,15 @@ const Navpart = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             
-            <NavDropdown title="News" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Bangladesh</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Investigative Stories
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Asia</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                World
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <ul className='d-flex'>
+              <li>News</li>
+              <li>Opinion</li>
+              <li>Sports</li>
+              <li>Business</li>
+              <li>Entertainment</li>
+              <li>Life & Living</li>
+              <li>Youth</li>
+            </ul>
           </Nav>
         </Navbar.Collapse>
       </Container>
