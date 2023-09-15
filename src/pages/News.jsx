@@ -1,9 +1,10 @@
+import DynamicNews from "../component/DynamicNews"
 
 
 const News = () => {
   return (
     <>
-        <h1>News Page</h1>
+        <DynamicNews/>
     </>
   )
 }

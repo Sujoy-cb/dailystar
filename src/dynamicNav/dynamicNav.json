@@ -1,37 +1,34 @@
 [
+
     {
         "id": 1,
-        "title": "Home",
-        "link": "/"
-    },
-    {
-        "id": 2,
         "title": "News",
         "link": "/news"
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "Opinion",
         "link": "/opinion"
     },
     {
-        "id": 4,
-        "title": "Sports"
+        "id": 3,
+        "title": "Sports",
+        "link": "/sports"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Business"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Entertainment"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Life & Living"
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Youth"
     }
     
