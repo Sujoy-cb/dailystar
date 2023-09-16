@@ -1,9 +1,16 @@
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import dynamicnav from "../dynamicNav/dynamicNav.json";
 
 const Navpart = () => {
+  let [routes, setRoutes] = useState("");
+
+  let handleRoute = () => {
+    setRoutes(routes);
+  };
+
   return (
     <>
       <Navbar
@@ -22,7 +29,11 @@ const Navpart = () => {
               <ul className="d-flex">
                 {dynamicnav.map((item) => (
                   <li key={item.id}>
-                    <a href={item.link}>{item.title}</a>
+                    <a
+                      onClick={handleRoute(setRoutes)}
+                      href={item.link}>
+                      {item.title}
+                    </a>
                   </li>
                 ))}
               </ul>

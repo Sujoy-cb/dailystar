@@ -2,13 +2,13 @@
 
     {
         "id": 1,
-        "title": "News",
-        "link": "/news"
+        "title": "Home",
+        "link": "/"
     },
     {
         "id": 2,
-        "title": "Opinion",
-        "link": "/opinion"
+        "title": "News",
+        "link": "/news"
     },
     {
         "id": 3,
@@ -17,19 +17,18 @@
     },
     {
         "id": 4,
-        "title": "Business"
+        "title": "Business",
+        "link":"/business"
     },
     {
         "id": 5,
-        "title": "Entertainment"
+        "title": "Entertainment",
+        "link":"/entertainment"
     },
     {
         "id": 6,
-        "title": "Life & Living"
-    },
-    {
-        "id": 7,
-        "title": "Youth"
+        "title": "Life & Living",
+        "link":"/life"
     }
     
 ]
