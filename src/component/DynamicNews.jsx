@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-// import Card from "react-bootstrap/Card";
 import dynamicnews from "../dynamicNews/dynamicNews.json";
 
 const DynamicNews = () => {
@@ -12,7 +11,7 @@ const DynamicNews = () => {
               {dynamicnews.map((item) => (
                 <>
                   <div className="card ">
-                    <h2>{item.category}</h2>
+                    <h2>{item.title}</h2>
                     <p>{item.news}</p>
                   </div>
                 </>

@@ -1,102 +1,122 @@
 [
   {
     "id": 1,
-    "category": "top",
+    "title": "top",
+    "cat": "top",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 2,
-    "category": "sports",
+    "title": "Fashion",
+    "cat": "fashion",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 3,
-    "category": "fasion",
+    "title": "top",
+    "cat": "top",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 4,
-    "category": "food",
+    "title": "tech",
+    "cat": "tech",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 5,
-    "category": "health",
+    "title": "top",
+    "cat": "top",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 6,
-    "category": "currancy",
+    "title": "tech",
+    "cat": "tech",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 7,
-    "category": "medical",
+    "title": "Fashion",
+    "cat": "fashion",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 8,
-    "category": "car",
+    "title": "sports",
+    "cat": "sports",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 9,
-    "category": "bike",
+    "title": "top",
+    "cat": "top",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 10,
-    "category": "business",
+    "title": "business",
+    "cat": "business",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 11,
-    "category": "tech",
+    "title": "sports",
+    "cat": "sports",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 12,
-    "category": "General Knowledge",
+    "title": "business",
+    "cat": "business",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 13,
-    "category": "murder",
+    "title": "tech",
+    "cat": "tech",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 14,
-    "category": "polotics",
+    "title": "business",
+    "cat": "business",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 15,
-    "category": "govt",
+    "title": "sports",
+    "cat": "sports",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 16,
-    "category": "bank",
+    "title": "Fashion",
+    "cat": "fashion",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 17,
-    "category": "recent",
+    "title": "tech",
+    "cat": "tech",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 18,
-    "category": "trending",
+    "title": "business",
+    "cat": "business",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 19,
-    "category": "foregin",
+    "title": "sports",
+    "cat": "sports",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     "id": 20,
-    "category": "Gaming",
+    "title": "Fashion",
+    "cat": "fashion",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   }
 ]

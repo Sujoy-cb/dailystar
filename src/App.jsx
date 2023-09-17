@@ -1,5 +1,6 @@
 import Navpart from "./component/Navpart"
-import News from "./pages/News"
+import DynamicNews from "./component/DynamicNews"
+
 
 
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Navpart/>
-      <News/>
+      <DynamicNews/>
     </>
   )
 }
