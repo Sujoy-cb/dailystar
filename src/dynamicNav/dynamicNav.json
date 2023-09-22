@@ -1,26 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Home"
+    "title": "Home",
+    "link": "/"
   },
   {
     "id": 2,
-    "title": "Top News"
+    "title": "Top News",
+    "link": "/news"
   },
   {
     "id": 3,
-    "title": "Sports"
+    "title": "Sports",
+    "link": "/sports"
   },
   {
     "id": 4,
-    "title": "Business"
+    "title": "Business",
+    "link": "/business"
   },
   {
     "id": 5,
-    "title": "Tech"
+    "title": "Tech",
+    "link": "/tech"
   },
   {
     "id": 6,
-    "title": "Fashion"
+    "title": "Fashion",
+    "link": "/fashion"
   }
 ]

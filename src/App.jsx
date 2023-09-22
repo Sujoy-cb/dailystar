@@ -1,18 +1,11 @@
-import Navpart from "./component/Navpart"
-import DynamicNews from "./component/DynamicNews"
-
-
-
+import DynamicNews from "./component/DynamicNews";
 
 function App() {
-  
-
   return (
     <>
-      <Navpart/>
-      <DynamicNews/>
+      <DynamicNews />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

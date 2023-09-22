@@ -22,7 +22,7 @@ const Navpart = () => {
               <ul className="d-flex">
                 {dynamicnav.map((item) => (
                   <li key={item.id}>
-                    <a href="#">{item.title}</a>
+                    <a target="blank" href={item.link}>{item.title}</a>
                   </li>
                 ))}
               </ul>
