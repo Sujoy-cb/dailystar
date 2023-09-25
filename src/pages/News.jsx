@@ -19,8 +19,8 @@ const News = () => {
       <div className="news_part p-4">
         <Container>
           <div className="dynamic_news">
-          {topNews}
-          {/* {newsData.filter((item) => item.cat == "top")} */}
+          <h1>News</h1>
+          {/* <div className="top_news">{topNews}</div> */}
           </div>
         </Container>
       </div>

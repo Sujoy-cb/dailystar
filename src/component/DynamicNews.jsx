@@ -13,6 +13,9 @@ const DynamicNews = () => {
                 <>
                   <div className="card ">
                     <h2>{item.title}</h2>
+                    <div className="img">
+                      <img src={item.img} alt="" />
+                    </div>
                     <p>{item.news}</p>
                   </div>
                 </>

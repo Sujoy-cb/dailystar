@@ -28,3 +28,9 @@ a{
   font-weight: 600;
   text-transform: uppercase;
 }
+.card .img img{
+  width: 100%;
+}
+.card p{
+  margin-top: 20px;
+}
