@@ -6,7 +6,6 @@ import Sports from "./pages/Sports";
 import Business from "./pages/Business";
 import Tech from "./pages/Tech";
 import Fashion from "./pages/Fashion";
-import Navpart from "./component/Navpart";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
@@ -22,25 +21,24 @@ const router = createBrowserRouter([
   },
   {
     path: "/sports",
-    element: <Sports/>,
+    element: <Sports />,
   },
   {
     path: "/business",
-    element: <Business/>,
+    element: <Business />,
   },
   {
     path: "/tech",
-    element: <Tech/>,
+    element: <Tech />,
   },
   {
     path: "/fashion",
-    element: <Fashion/>,
+    element: <Fashion />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navpart />
     <RouterProvider router={router} />
   </React.StrictMode>,
 );

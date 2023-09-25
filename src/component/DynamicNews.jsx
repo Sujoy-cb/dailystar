@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import dynamicnews from "../dynamicNews/dynamicNews.json";
 
 const DynamicNews = () => {
+  console.log("hello world")
   return (
     <>
       <div className="news_part p-4">
