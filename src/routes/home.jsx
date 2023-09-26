@@ -1,7 +1,6 @@
-
-import RootLayout from "../pages/RootLayout";
+import App from "../App";
 
 export default {
-    path: "/",
-    element: <RootLayout/>
-  }
+  path: "/",
+  element: <App />,
+};
