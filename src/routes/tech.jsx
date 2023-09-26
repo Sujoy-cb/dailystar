@@ -1,7 +1,11 @@
+import Navpart from "../component/Navpart";
 import Tech from "../pages/Tech";
 
 
 export default{
     path: "/tech",
-    element: <Tech />,
+    element: <>
+    <Navpart/>
+      <Tech />
+    </>,
   }
