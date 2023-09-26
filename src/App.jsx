@@ -1,13 +1,9 @@
 import DynamicNews from "./component/DynamicNews";
 
-
-
-
-
 function App() {
   return (
     <>
-      <DynamicNews/>
+      <DynamicNews />
     </>
   );
 }

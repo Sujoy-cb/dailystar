@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import dynamicnav from '/dynamicNav.json'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navpart = () => {
   let [nav, setNav] = useState([])
@@ -36,8 +36,8 @@ const Navpart = () => {
               <ul className="d-flex">
                 {nav.map((item) => (
                   <li key={item.id}>
-                  {/* <a href={item.link}>{item.title}</a> */}
-                    <Link to={item.link}>{item.title}</Link>
+                  <a href={item.link}>{item.title}</a>
+                    {/* <Link to={item.link}>{item.title}</Link> */}
                   </li>
                 ))}
               </ul>
