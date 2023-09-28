@@ -138,5 +138,19 @@
     "cat": "fashion",
     "img": "https://cdn.wisden.com/wp-content/uploads/2023/08/Untitled-1200-%C3%97-662-px2-980x530.png",
     "news": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    "id": 20,
+    "title": "Bangladesh will return to darkness if AL doesn't remain in power: PM",
+    "cat": "recent",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9IaOdlJNfHV4X-vlgZsD1tf3UG_5OMq_IPUCFxFjFxmeqQeuK5Q91oAa-eDdSwVyTEuU&usqp=CAU",
+    "news": "Prime Minister and Awami League President Sheikh Hasina has said Bangladesh will plunge into an era of darkness if her party does not remain in power."
+  },
+  {
+    "id": 21,
+    "title": "Amusement parks turn over Tk 5,000cr annually",
+    "cat": "recent",
+    "img": "https://tds-images.thedailystar.net/sites/default/files/styles/big_202/public/images/2021/08/06/amusement-park.jpg?itok=9Z4ftgb1&timestamp=1628191412",
+    "news": "Investment in Bangladesh's amusement and theme park segment is on the rise as investors are pumping money into the fast-expanding industry to serve visitors, according to industry people."
   }
 ]
