@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 ul,ol{
   list-style: none;
@@ -13,8 +14,20 @@ ul li{
   padding: 0 10px;
   cursor: pointer;
 }
+ul > li > a{
+  font-size: 16px;
+  color: #444;
+  font-weight: 500;
+}
 a{
   text-decoration: none;
+}
+
+.logo{
+  width: 200px;
+}
+.logo img{
+  width: 100%;
 }
 
 .card{

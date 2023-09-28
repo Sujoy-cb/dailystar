@@ -23,7 +23,7 @@ const Navpart = () => {
         expand="lg"
         className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand className="logo" href="#home">
             <img
               src="/images/logo.png"
               alt="logo"
