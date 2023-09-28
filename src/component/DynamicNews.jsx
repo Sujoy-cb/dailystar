@@ -15,7 +15,7 @@ const DynamicNews = () => {
   },[])
   return (
     <>
-      {/* <div className="news_part p-4">
+      <div className="news_part p-4">
         <Container>
           <div className="dynamic_news">
             <div className="main-card d-flex flex-wrap justify-content-between">
@@ -33,7 +33,7 @@ const DynamicNews = () => {
             </div>
           </div>
         </Container>
-      </div> */}
+      </div>
     </>
   );
 };
