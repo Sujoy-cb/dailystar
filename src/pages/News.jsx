@@ -24,23 +24,25 @@ const News = () => {
               <Title title={"Top News"} />
             </div>
             <Row>
-              <Col>
-                <div className="main-card d-flex flex-wrap justify-content-between">
-                  {news.map((item) => (
+              {news.map((item) => (
+              <>
+              <Col xs={3}>
                     <>
                       <div className="card ">
+                      <h3>{item.title}</h3>
+                      <p>{item.news}</p>
                         <div className="img">
                           <img
                             src={item.img}
                             alt=""
                           />
                         </div>
-                        <p>{item.news}</p>
+                        
                       </div>
                     </>
-                  ))}
-                </div>
               </Col>
+              </>
+                  ))}
             </Row>
           </div>
         </Container>
