@@ -21,7 +21,7 @@ const News = () => {
         <Container fluid>
           <div className="dynamic_news">
             <div className="header_title">
-              <Title title={"Top News"} />
+              <Title title="Top News" />
             </div>
             <Row>
               {news.map((item) => (

@@ -1,42 +1,64 @@
 import { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
-
+import { Col, Row } from "react-bootstrap";
+import Title from "../component/Title/Title";
 const Sports = () => {
-  let [news, setNews] = useState([]);
+  let [trending, setTrending] = useState([]);
+  let [trending2, setTrending2] = useState([]);
 
   useEffect(() => {
-    const getData = async () => {
-      const response = await fetch("/dynamicNews.json");
-      const news = await response.json();
-      let newsData = news.filter((item) => item.cat == "sports");
-      setNews(newsData);
+    const getNews = async () => {
+      const res = await fetch("/dynamicNews.json");
+      let getRecentnews = await res.json();
+      let newsData = getRecentnews.filter((item) => item.cat == "singlesports");
+
+      setTrending(newsData);
     };
-    getData();
+    getNews();
+  }, []);
+
+  useEffect(() => {
+    const getNews = async () => {
+      const res = await fetch("/dynamicNews.json");
+      let getRecentnews2 = await res.json();
+      let newsData2 = getRecentnews2.filter((item) => item.cat == "sports");
+
+      setTrending2(newsData2);
+    };
+    getNews();
   }, []);
 
   return (
     <>
-      <div className="news_part p-4">
-        <Container>
-          <div className="dynamic_news">
-            <div className="main-card d-flex flex-wrap justify-content-between">
-              {news.map((item) => (
-                <>
-                  <div className="card ">
-                    <h2>{item.title}</h2>
-                    <div className="img">
-                      <img
-                        src={item.img}
-                        alt=""
-                      />
-                    </div>
-                    <p>{item.news}</p>
-                  </div>
-                </>
-              ))}
-            </div>
-          </div>
-        </Container>
+      <div className="upper_news">
+        <div className="header_title">
+          <Title title="Sports News" />
+        </div>
+        <Row>
+          <Col xs={6}>
+            {trending.map((item) => (
+              <>
+                <h3 className="mt-4">{item.title}</h3>
+                <p>{item.news}</p>
+                <div className="img">
+                  <img
+                    src={item.img}
+                    alt=""
+                  />
+                </div>
+              </>
+            ))}
+          </Col>
+          <Col xs={6}>
+            {trending2.map((item) => (
+              <>
+                <div className="sports_col">
+                  <h3>{item.title}</h3>
+                  <p>{item.news}</p>
+                </div>
+              </>
+            ))}
+          </Col>
+        </Row>
       </div>
     </>
   );
