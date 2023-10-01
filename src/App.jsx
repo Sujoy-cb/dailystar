@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import News from "./pages/News";
 import RecentNews from "./pages/RecentNews";
 import Sports from "./pages/Sports";
+import Business from "./pages/Business";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <RecentNews />
           <News />
           <Sports />
+          <Business/>
         </Container>
       </div>
     </>
