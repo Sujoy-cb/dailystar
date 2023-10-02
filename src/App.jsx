@@ -3,6 +3,7 @@ import News from "./pages/News";
 import RecentNews from "./pages/RecentNews";
 import Sports from "./pages/Sports";
 import Business from "./pages/Business";
+import Tech from "./pages/Tech";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <News />
           <Sports />
           <Business/>
+          <Tech/>
         </Container>
       </div>
     </>

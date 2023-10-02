@@ -21,7 +21,15 @@ ul > li > a {
   font-weight: 500;
 }
 a {
+  color: #222;
   text-decoration: none;
+  transition: all .4s;
+}
+a:hover{
+  color: #1779ba;
+}
+h3{
+  font-weight: 600;
 }
 .img{
   width: 420px;

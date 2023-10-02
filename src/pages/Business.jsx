@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "../component/Title/Title";
+import { Link } from "react-router-dom";
 
 const Business = () => {
   let [news, setNews] = useState([]);
@@ -26,15 +27,18 @@ const Business = () => {
             {news.map((item) => (
               <>
                 <Col xs={4}>
-                <div className="img mt-4">
-                    <img
-                      src={item.img}
-                      alt=""
-                    />
-                  </div>
-                  <h3 className="mt-4">{item.title}</h3>
-                  <p>{item.news}</p>
-                  
+                  <Link to={item.link}>
+                    <div className="img mt-4">
+                      <img
+                        src={item.img}
+                        alt=""
+                      />
+                    </div>
+                  </Link>
+                  <Link to={item.link}>
+                    <h3 className="mt-4">{item.title}</h3>
+                  </Link>
+                  <p>{item.news.substring(0, 5)}</p>
                 </Col>
               </>
             ))}

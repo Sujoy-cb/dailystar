@@ -145,5 +145,19 @@
     "cat": "recent",
     "img": "https://tds-images.thedailystar.net/sites/default/files/styles/big_202/public/images/2021/08/06/amusement-park.jpg?itok=9Z4ftgb1&timestamp=1628191412",
     "news": "Investment in Bangladesh's amusement and theme park segment is on the rise as investors are pumping money into the fast-expanding industry to serve visitors, according to industry people."
+  },
+  {
+    "id": 22,
+    "title": "Jim Ryan, leader of PlayStation, announces retirement",
+    "cat": "lefttech",
+    "img": "https://contentstatic.techgig.com/photo/88607432/a-to-z-of-technology-top-tech-news-of-2021-at-a-glance.jpg?32786",
+    "news": "Jim Ryan, the long-standing President and CEO of Sony Interactive Entertainment (SIE), is set to retire in March 2024, marking the end of a 28-year-long career with the."
+  },
+  {
+    "id": 23,
+    "title": "Fostering professional relationships as a young leader",
+    "cat": "lefttech",
+    "img": "https://d6fiz9tmzg8gn.cloudfront.net/wp-content/uploads/2019/02/15tech-Banner.jpg",
+    "news": "Amidst the modern wave of change, one challenge remains consistent: building and fostering professional relationships. For many young leaders, the task of."
   }
 ]
