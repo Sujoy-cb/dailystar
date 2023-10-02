@@ -26,7 +26,7 @@ a {
   transition: all .4s;
 }
 a:hover{
-  color: #1779ba;
+  color: #1779ba !important;
 }
 h3{
   font-weight: 600;
@@ -129,4 +129,17 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+.footer_part{
+  background: #222;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_part h4{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
 }

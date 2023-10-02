@@ -13,8 +13,8 @@ function App() {
           <RecentNews />
           <News />
           <Sports />
-          <Business/>
-          <Tech/>
+          <Business />
+          <Tech />
         </Container>
       </div>
     </>

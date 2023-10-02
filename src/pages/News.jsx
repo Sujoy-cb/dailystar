@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Title from "../component/Title/Title";
+import { Link } from "react-router-dom";
 
 const News = () => {
   let [news, setNews] = useState([]);
@@ -25,24 +26,27 @@ const News = () => {
             </div>
             <Row>
               {news.map((item) => (
-              <>
-              <Col xs={3}>
+                <>
+                  <Col xs={3}>
                     <>
                       <div className="card ">
-                      <h3>{item.title}</h3>
-                      <p>{item.news}</p>
-                        <div className="img">
-                          <img
-                            src={item.img}
-                            alt=""
-                          />
-                        </div>
-                        
+                        <Link to={item.link}>
+                          <h3>{item.title}</h3>
+                        </Link>
+                        <p>{item.news}</p>
+                        <Link to={item.link}>
+                          <div className="img">
+                            <img
+                              src={item.img}
+                              alt=""
+                            />
+                          </div>
+                        </Link>
                       </div>
                     </>
-              </Col>
-              </>
-                  ))}
+                  </Col>
+                </>
+              ))}
             </Row>
           </div>
         </Container>

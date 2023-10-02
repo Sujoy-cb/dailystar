@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Navpart from "../component/Navpart";
 import News from "../pages/News";
 
@@ -7,6 +8,7 @@ export default {
     <>
       <Navpart />
       <News />
+      <Footer/>
     </>
   ),
 };

@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Navpart from "../component/Navpart";
 import Sports from "../pages/Sports";
 
@@ -7,5 +8,6 @@ export default {
     element: <>
     <Navpart/>
       <Sports />
+      <Footer/>
     </>,
   }

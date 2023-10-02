@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import Title from "../component/Title/Title";
+import { Link } from "react-router-dom";
 
 const Tech = () => {
   let [technews, setTechnews] = useState([]);
@@ -46,49 +47,59 @@ const Tech = () => {
           <Col xs={6}>
             {technews2.map((item) => (
               <>
-                <h3 className="mt-4">{item.title}</h3>
-                <div className="img mt-4">
-                  <img
-                    src={item.img}
-                    alt=""
-                  />
-                </div>
+                <Link to={item.link}>
+                  <h3 className="mt-4">{item.title}</h3>
+                </Link>
+
+                <Link to={item.link}>
+                  <div className="img mt-4">
+                    <img
+                      src={item.img}
+                      alt=""
+                    />
+                  </div>
+                </Link>
                 <p className="left_news mt-2">{item.news}</p>
               </>
             ))}
           </Col>
           <Col xs={6}>
-          <Row>
-            <Col xs={6}>
-            {technews.map((item) => (
-              <>
-                <h3 className="mt-4">{item.title}</h3>
-                <div className="techimg mt-4">
-                  <img
-                    src={item.img}
-                    alt=""
-                  />
-                </div>
-                <p className="mt-2">{item.news}</p>
-              </>
-            ))}
-            </Col>
-            <Col xs={6}>
-            {technews3.map((item) => (
-              <>
-                <h3 className="mt-4">{item.title}</h3>
-                <div className="techimg mt-4">
-                  <img
-                    src={item.img}
-                    alt=""
-                  />
-                </div>
-                <p className="mt-2">{item.news}</p>
-              </>
-            ))}
-            </Col>
-          </Row>
-          
+            <Row>
+              <Col xs={6}>
+                {technews.map((item) => (
+                  <>
+                    <Link to={item.link}>
+                      <h3 className="mt-4">{item.title}</h3>
+                    </Link>
+                    <Link to={item.link}>
+                    <div className="techimg mt-4">
+                      <img
+                        src={item.img}
+                        alt=""
+                      />
+                    </div>
+                    </Link>
+                    <p className="mt-2">{item.news}</p>
+                  </>
+                ))}
+              </Col>
+              <Col xs={6}>
+                {technews3.map((item) => (
+                  <>
+                    <Link to={item.link}>
+                      <h3 className="mt-4">{item.title}</h3>
+                    </Link>
+                    <div className="techimg mt-4">
+                      <img
+                        src={item.img}
+                        alt=""
+                      />
+                    </div>
+                    <p className="mt-2">{item.news}</p>
+                  </>
+                ))}
+              </Col>
+            </Row>
           </Col>
         </Row>
       </div>

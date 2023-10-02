@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import Title from "../component/Title/Title";
+import { Link } from "react-router-dom";
 const Sports = () => {
   let [trending, setTrending] = useState([]);
   let [trending2, setTrending2] = useState([]);
@@ -37,14 +38,18 @@ const Sports = () => {
           <Col xs={6}>
             {trending.map((item) => (
               <>
-                <h3 className="mt-4">{item.title}</h3>
+                <Link to={item.link}>
+                  <h3 className="mt-4">{item.title}</h3>
+                </Link>
                 <p>{item.news}</p>
-                <div className="img">
-                  <img
-                    src={item.img}
-                    alt=""
-                  />
-                </div>
+                <Link to={item.link}>
+                  <div className="img">
+                    <img
+                      src={item.img}
+                      alt=""
+                    />
+                  </div>
+                </Link>
               </>
             ))}
           </Col>
@@ -52,7 +57,9 @@ const Sports = () => {
             {trending2.map((item) => (
               <>
                 <div className="sports_col">
-                  <h3>{item.title}</h3>
+                  <Link to={item.link}>
+                    <h3>{item.title}</h3>
+                  </Link>
                   <p>{item.news}</p>
                 </div>
               </>
